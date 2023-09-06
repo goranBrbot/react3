@@ -2,8 +2,10 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Goran from "./components/Prva";
-import { Druga1, Druga2, Druga3 } from "./components/Druga";
+// import Goran from "./components/Prva";
+// import { Druga1, Druga2, Druga3 } from "./components/Druga";
+import { Goran, Druga1, Druga2, Druga3 } from "./components/index";
+
 
 function App() {
   const [count, setCount] = useState(0);
