@@ -1,2 +1,2 @@
-export {default as Goran} from './Prva'
-export {Druga1, Druga2, Druga3} from './Druga'
+export {default as Goran} from './PrvaKomp'
+export {Druga1, Druga2, Druga3} from './DrugaKomp'

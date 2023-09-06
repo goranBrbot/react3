@@ -2,9 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-// import Goran from "./components/Prva";
-// import { Druga1, Druga2, Druga3 } from "./components/Druga";
-import { Goran, Druga1, Druga2, Druga3 } from "./components/index";
+import { Goran, Druga1, Druga2, Druga3 } from "./components";
 
 
 function App() {
@@ -20,7 +18,6 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
       <h2>
         <Goran />
       </h2>
